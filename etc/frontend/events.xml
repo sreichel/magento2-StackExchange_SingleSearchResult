@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="controller_action_layout_render_before_catalogsearch_result_index">
+        <observer name="stackexchange_singlesearchresult_search"
+                  instance="StackExchange\SingleSearchResult\Observer\RedirectToProduct"/>
+    </event>
+    <event name="controller_action_layout_render_before_catalogsearch_advanced_result">
+        <observer name="stackexchange_singlesearchresult_advanced"
+                  instance="StackExchange\SingleSearchResult\Observer\RedirectToProduct"/>
+    </event>
+</config>
