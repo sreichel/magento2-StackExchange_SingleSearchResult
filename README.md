@@ -1,4 +1,4 @@
-# Magento2: DisableAdvancedSearch
+# Magento 2 Extension: Singe Search Result
 
 [![Latest Stable Version](http://poser.pugx.org/mse-sv3n/m2-single-search-result/v)](https://packagist.org/packages/mse-sv3n/m2-single-search-result)
 [![Total Downloads](http://poser.pugx.org/mse-sv3n/m2-single-search-result/downloads)](https://packagist.org/packages/mse-sv3n/m2-single-search-result)
