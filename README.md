@@ -1,26 +1,20 @@
 # Magento2: DisableAdvancedSearch
 
-[![Latest Stable Version](http://poser.pugx.org/mse-sv3n/disable-advanced-search/v)](https://packagist.org/packages/mse-sv3n/disable-advanced-search)
-[![Total Downloads](http://poser.pugx.org/mse-sv3n/disable-advanced-search/downloads)](https://packagist.org/packages/mse-sv3n/disable-advanced-search)
-[![Latest Unstable Version](http://poser.pugx.org/mse-sv3n/disable-advanced-search/v/unstable)](https://packagist.org/packages/mse-sv3n/disable-advanced-search)
-[![License](http://poser.pugx.org/mse-sv3n/disable-advanced-search/license)](https://packagist.org/packages/mse-sv3n/disable-advanced-search)
-[![PHP Version Require](http://poser.pugx.org/mse-sv3n/disable-advanced-search/require/php)](https://packagist.org/packages/mse-sv3n/disable-advanced-search)
+[![Latest Stable Version](http://poser.pugx.org/mse-sv3n/m2-single-search-result/v)](https://packagist.org/packages/mse-sv3n/m2-single-search-result)
+[![Total Downloads](http://poser.pugx.org/mse-sv3n/m2-single-search-result/downloads)](https://packagist.org/packages/mse-sv3n/m2-single-search-result)
+[![Latest Unstable Version](http://poser.pugx.org/mse-sv3n/m2-single-search-result/v/unstable)](https://packagist.org/packages/mse-sv3n/m2-single-search-result)
+[![License](http://poser.pugx.org/mse-sv3n/m2-single-search-result/license)](https://packagist.org/packages/mse-sv3n/m2-single-search-result)
+[![PHP Version Require](http://poser.pugx.org/mse-sv3n/m2-single-search-result/require/php)](https://packagist.org/packages/mse-sv3n/m2-single-search-result)
 [![Support](https://img.shields.io/badge/paypal-donate-lightblue.svg?logo=paypal)](https://www.paypal.me/sv3n1)
 
+> This extension redirects to the product page when the search (and advanced search) page should return only on product, even if this happens after the search or after applying a layered navigation filter.
 
-**Q:** How to disable Advanced Search?
+**Source:** https://magento.stackexchange.com/questions/54122/catalog-search-if-only-one-result-show-product-view-page-insted-of-list-view
 
-> How can I disable advanced search feature in Magento?
->  
->  Even you remove the links from frontend using layouts, if someone who knows Magento URL's accesses **/catalogsearch/advanced** will get the Advanced Search page.
+## Installation
 
-**Source:** https://magento.stackexchange.com/questions/36088/how-to-disable-advanced-search
-
-
-Installation
-===
 ```
-composer require mse-sv3n/disable-advanced-search
+composer require mse-sv3n/m2-single-search-result
 bin/magento setup:upgrade
 ```
 
